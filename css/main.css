@@ -9,7 +9,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 625px;
+	height: auto;
 }
 .header .logo {
 	position: absolute;
@@ -73,6 +73,7 @@ body {
 	border-radius: 5px;
 	text-decoration: none;
 	transition: all 0.5s;
+	margin: 5px 5px 60px 5px;
 }
 .header .header-button .button {
 	padding: 20px 50px;
@@ -102,38 +103,25 @@ body {
 .button:first-child:hover {
 	color: white;
 }
-	
 
-.header-bottom {
-	display: block;
-	background-color: #DBE7E0;
-	height: auto;
-
-}
-.header-bottom ul {
-	list-style: none;
-	display: table;
-	margin: 0 auto;
-}
-
-.header-bottom li {
-	display: inline-block;
-	padding: 0 20px;
-}
 .content {
 	position: relative;
 	padding: 50px 0;
 	transition: all 0.5s;
 	cursor: pointer;
+	display: block;
 }
 .contents h3 {
 	color: #13CD4A;
 }
 .contents  {
 	opacity: 0.8;
+	margin-left: 12%;
 }
 .contents img {
-	float:right;
+	float:left;
+	display: inline;
+	margin-right: 30px;
 }
 .content:hover {
 	transform: scale(1.2);
